@@ -1,0 +1,23 @@
+$neon-green: hsl(150, 100%, 66%);
+$grayish-blue: hsl(217, 19%, 38%);
+
+.btn-dice {
+    position: absolute;
+    text-align: center;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: $neon-green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    width: fit-content;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $grayish-blue;
+    }
+}
